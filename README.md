@@ -18,4 +18,8 @@ Related Work Link
 Created date
 Updated date
 Assign To - String 
+
+NOTE
+1.THE test API are mentioned as tmsapi.json and if using talendAPItester they can be imported and used
+2.It uses Amazon RDS to connect to
  
