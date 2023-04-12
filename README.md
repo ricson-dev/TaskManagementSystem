@@ -9,14 +9,13 @@ Requirement of Task Management application
 6. Export and Import task details from CSV file
 
 Task Modal
-id
-Title
-Description
-State -> New, Open, Completed, Close, Not Required
-priority -> Low, Medium, High
-Related Work Link
-Created date
-Updated date
+id,
+Title,
+Description,
+State -> New, Open, Completed, Close, Not Required,
+priority -> Low, Medium, High,
+Created date,
+Updated date,
 Assign To - String 
 
 ## NOTE
