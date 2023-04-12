@@ -1,0 +1,23 @@
+use for creating to a diff schema than public
+
+@Table(name = "task",schema = "task")
+public class Task {
+    @Id @GeneratedValue(strategy = GenerationType.AUTO,generator = "sb_sequence")
+<<<<<<< Updated upstream
+    @SequenceGenerator(name = "sb_sequence",sequenceName = "task.sb_sequence")
+
+    TASK
+    @OneToMany(mappedBy = "id.task",cascade = CascadeType.ALL)
+    private List<SubTask> subTaskList ;
+
+    SUBTASK
+
+     @Id
+        private int subTaskId;
+        @ManyToOne
+        @Id
+        @JoinColumn(name="task_id", referencedColumnName="taskId")
+        private Task task;
+=======
+    @SequenceGenerator(name = "sb_sequence",sequenceName = "task.sb_sequence")
+>>>>>>> Stashed changes
